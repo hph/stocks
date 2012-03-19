@@ -106,139 +106,139 @@ Options
 </tr>
 <tr>
 <td><strong>g6</strong></td>
-<td></td>
+<td>Holdings gain (real-time)</td>
 <td><strong>i</strong></td>
-<td></td>
+<td>More info</td>
 <td><strong>i5</strong></td>
-<td></td>
+<td>Order book (real-time)</td>
 </tr>
 <tr>
 <td><strong>j1</strong></td>
-<td></td>
+<td>Market capitalization</td>
 <td><strong>j3</strong></td>
-<td></td>
+<td>Market capitalization (real-time)</td>
 <td><strong>j4</strong></td>
-<td></td>
+<td>EBITDA</td>
 </tr>
 <tr>
 <td><strong>j5</strong></td>
-<td></td>
+<td>Change from 52-week low</td>
 <td><strong>j6</strong></td>
-<td></td>
+<td>Percent change from 52-week low</td>
 <td><strong>k1</strong></td>
-<td></td>
+<td>Last trade (real-time) with time</td>
 </tr>
 <tr>
 <td><strong>k2</strong></td>
-<td></td>
+<td>Change percent (real-time)</td>
 <td><strong>k3</strong></td>
-<td></td>
+<td>Last trade size</td>
 <td><strong>k4</strong></td>
-<td></td>
+<td>Change from 52-week high</td>
 </tr>
 <tr>
 <td><strong>k5</strong></td>
-<td></td>
+<td>Percent change from 52-week high</td>
 <td><strong>l</strong></td>
-<td></td>
+<td>Last trade (with time)</td>
 <td><strong>l1</strong></td>
-<td></td>
+<td>Last trade (price only)</td>
 </tr>
 <tr>
 <td><strong>l2</strong></td>
-<td></td>
+<td>High limit</td>
 <td><strong>l3</strong></td>
-<td></td>
+<td>Low limit</td>
 <td><strong>m</strong></td>
-<td></td>
+<td>Day's range</td>
 </tr>
 <tr>
 <td><strong>m2</strong></td>
-<td></td>
+<td>Day's range (real-time)</td>
 <td><strong>m3</strong></td>
-<td></td>
+<td>50-day moving average</td>
 <td><strong>m4</strong></td>
-<td></td>
+<td>200-day moving average</td>
 </tr>
 <tr>
 <td><strong>m5</strong></td>
-<td></td>
+<td>Change from 200-day moving average</td>
 <td><strong>m6</strong></td>
-<td></td>
+<td>Percent change from 200-day moving average</td>
 <td><strong>m7</strong></td>
-<td></td>
+<td>Change from 50-day moving average</td>
 </tr>
 <tr>
 <td><strong>m8</strong></td>
-<td></td>
+<td>Percent change from 50-day moving average</td>
 <td><strong>n</strong></td>
-<td></td>
+<td>Name</td>
 <td><strong>n4</strong></td>
-<td></td>
+<td>Notes</td>
 </tr>
 <tr>
 <td><strong>o</strong></td>
-<td></td>
+<td>Open</td>
 <td><strong>p</strong></td>
-<td></td>
+<td>Previous close</td>
 <td><strong>p1</strong></td>
-<td></td>
+<td>Price paid</td>
 </tr>
 <tr>
 <td><strong>p2</strong></td>
-<td></td>
+<td>Change in percent</td>
 <td><strong>p5</strong></td>
-<td></td>
+<td>Price/sales</td>
 <td><strong>p6</strong></td>
-<td></td>
+<td>Price/book</td>
 </tr>
 <tr>
 <td><strong>q</strong></td>
-<td></td>
+<td>Ex-dividend date</td>
 <td><strong>r</strong></td>
-<td></td>
+<td>P/E ratio</td>
 <td><strong>r1</strong></td>
-<td></td>
+<td>Dividend pay date</td>
 </tr>
 <tr>
 <td><strong>r2</strong></td>
-<td></td>
+<td>P/E ratio (real-time)</td>
 <td><strong>r5</strong></td>
-<td></td>
+<td>PEG ratio</td>
 <td><strong>r6</strong></td>
-<td></td>
+<td>Price/EPS estimate current year</td>
 </tr>
 <tr>
 <td><strong>r7</strong></td>
-<td></td>
+<td>Price/EPS estimate next year</td>
 <td><strong>s</strong></td>
-<td></td>
+<td>Symbol</td>
 <td><strong>s1</strong></td>
-<td></td>
+<td>Shares owned</td>
 </tr>
 <tr>
 <td><strong>s7</strong></td>
-<td></td>
+<td>Short ratio</td>
 <td><strong>t1</strong></td>
-<td></td>
+<td>Last trade time</td>
 <td><strong>t6</strong></td>
-<td></td>
+<td>Trade links</td>
 </tr>
 <tr>
 <td><strong>t7</strong></td>
-<td></td>
+<td>Ticker trend</td>
 <td><strong>t8</strong></td>
-<td></td>
+<td>1 year target estimate</td>
 <td><strong>v</strong></td>
-<td></td>
+<td>Volume</td>
 </tr>
 <tr>
 <td><strong>v1</strong></td>
-<td></td>
+<td>Holding's value</td>
 <td><strong>v7</strong></td>
-<td></td>
+<td>Holding's value (real-time)</td>
 <td><strong>w</strong></td>
-<td></td>
+<td>52-week range</td>
 </tr>
 <tr>
 <td><strong>w1</strong></td>
