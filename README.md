@@ -25,7 +25,7 @@ Options
 
 <table border="1">
 <tr>
-<td>a</td>
+<td><strong>a</strong></td>
 <td>Ask</td>
 <td>a2</td>
 <td>Average daily volume</td>
