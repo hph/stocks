@@ -20,16 +20,16 @@ To do
 
 * Everything.
 
-Tests
------
+Options
+-------
 
 <table border="1">
 <tr>
-<td>row 1, cell 1</td>
-<td>row 1, cell 2</td>
+<td>a</td>
+<td>Ask</td>
 </tr>
 <tr>
-<td>row 2, cell 1</td>
-<td>row 2, cell 2</td>
+<td>a2</td>
+<td>Average daily volume</td>
 </tr>
 </table>
