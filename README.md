@@ -70,7 +70,7 @@ Options
 <td><strong>e</strong></td>
 <td>Earnings/share</td>
 <td><strong>e1</strong></td>
-<td>Error indication (returned for symbol change/invalid)</td>
+<td>Error indication (returned for symbol changed or invalid)</td>
 </tr>
 <tr>
 <td><strong>e7</strong></td>
