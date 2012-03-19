@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding=utf-8
 
+import string
 import sys
 import urllib
 
-# The following dict contains descriptions of possible options used.
 OPTIONS = {'a' : 'Ask',
            'a2': 'Av. daily volume',
            'a5': 'Ask size',
@@ -123,18 +123,49 @@ def parse_data(filename='stocks.csv'):
             tmp_lst = []
     return data
 
+def separate_opts(options):
+    '''Separate options.'''
+    opts = []
+    for char in options:
+        if char not in string.digits:
+            opts.append(char)
+        else:
+            opts[-1] = opts[-1] + char
+    return opts
+
+def tupler(data, options):
+    '''Return a list of tuples with data and its description.'''
+    return [zip([OPTIONS[opt] for opt in options], val) for val in data]
+
 def repr_data(data):
     '''Print data in a concrete manner.'''
+    longest = 0
     for stock in data:
-        print '%s' % stock[0]
-        print 'Last trade:  %s \t Change:       %s' % (stock[1], stock[2])
-        print 'Day\'s low:   %s \t Day\'s high:   %s' % (stock[3], stock[4])
-        print '52-week low: %s \t 52-week high: %s' % (stock[5], stock[6])
-        print '1 yr target: %s\n' % stock[7]
+        for tupl in stock:
+            if len(tupl[0]) > longest:
+                longest = len(tupl[0])
+    for stock in data:
+        for tupl in stock:
+            print string.rjust(tupl[0] + ':', longest + 1), tupl[1]
+        print '\n'
 
 def main():
-    get_data('aapl+goog+msft+brk-a+aa+yhoo', 'sl1p2ghjkt8')
-    repr_data(parse_data())
+    # NOTE This usage method is just temporary for testing purposes. Optparser
+    # will be used for possible options instead of this naive method. The
+    # default functions of the program do not require options, but a setup is
+    # necessary.
+    if len(sys.argv) == 3:
+        stocks = sys.argv[1]        # Example: aapl+goog+msft+brk-a+aa+yhoo
+        options = sys.argv[2]       # Example: sl1p2ghjkt8
+        get_data(stocks, options)
+        try:
+            data = tupler(parse_data(), separate_opts(options))
+            repr_data(data)
+        except:
+            print 'KeyError: Options incorrect.'
+    if 'options' in sys.argv:
+        for option in OPTIONS:
+            print '%s: %s.' % (string.rjust(option, 2), OPTIONS[option])
 
 if __name__ == '__main__':
     main()
