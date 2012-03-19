@@ -27,9 +27,18 @@ Options
 <tr>
 <td>a</td>
 <td>Ask</td>
-</tr>
-<tr>
 <td>a2</td>
 <td>Average daily volume</td>
+<td>a5</td>
+<td>Ask size</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Bid</td>
+<td>b2</td>
+<td>Ask (real-time)</td>
+<td>b3</td>
+<td>Bid (real-time)</td>
+<td>
 </tr>
 </table>
