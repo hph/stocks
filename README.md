@@ -40,4 +40,20 @@ Options
 <td><strong>b3</strong></td>
 <td>Bid (real-time)</td>
 </tr>
+<tr>
+<td><strong>b4</strong></td>
+<td>Book value</td>
+<td><strong>b6</strong></td>
+<td>Bid size</td>
+<td><strong>c</strong></td>
+<td>Change & percent change</td>
+</tr>
+<tr>
+<td><strong>c1</strong></td>
+<td>Change</td>
+<td><strong>c3</strong></td>
+<td>Commission</td>
+<td><strong>c6</strong></td>
+<td>Change (real-time)</td>
+</tr>
 </table>
