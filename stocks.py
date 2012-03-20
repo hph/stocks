@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
+import os
 import string
 import sys
 import urllib
@@ -164,8 +165,20 @@ def main():
         except:
             print 'KeyError: Options incorrect.'
     if 'options' in sys.argv:
-        for option in OPTIONS:
-            print '%s: %s.' % (string.rjust(option, 2), OPTIONS[option])
+        opts = ''
+        for i, option in enumerate(OPTIONS):
+            opt_1 = string.rjust(option, 2)
+            opt_2 = string.ljust(OPTIONS[option], 40)
+            if not i % 2:
+                opts = '%s: %s' % (opt_1, opt_2)
+            else:
+                opts += '%s: %s' % (opt_1, opt_2)
+                print opts
+        print opts, '\n'
+        columns = int(os.popen('stty size', 'r').read().split()[1])
+        if columns < 88: 
+            print 'To view a more compact list, resize the window and retry.'
+        # TODO Improve this option stuff.
 
 if __name__ == '__main__':
     main()
