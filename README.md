@@ -62,6 +62,12 @@ And more.
 Options
 -------
 
+A list of options is available via the `options` parameter:
+
+    python stocks.py options
+
+Which prints a list with the following data:
+
 <table border="1">
 <tr>
 <td><strong>a</strong></td>
