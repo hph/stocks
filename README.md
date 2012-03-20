@@ -11,11 +11,11 @@ No install required or available at this point.
 Usage example
 -------------
 
-To get the current stock quotes for a few companies:
+To get some data for AAPL (Apple Inc.), you could enter the following command:
 
     $ python stocks.py aapl sl1p2mwt8
 
-At March 20 2012 this command printed:
+On March 20 2012 this command returned:
 
                      Symbol: AAPL
                  Last trade: 605.96
@@ -24,10 +24,32 @@ At March 20 2012 this command printed:
               52-week range: 310.50 - 601.77
     52-week target estimate: 627.04
 
+After the filename you have to enter the stock symbol or symbols and then the
+options. If there is more than one symbol, they have to be separated by "+"
+signs (see the example below). The "s" in sl1p2mwt8 stands for symbol. The "l1"
+stands for last trade. For a full list of options, see the Options section.
+Another example, now with two symbols, AAPL and MSFT (Microsoft Corporation):
+
+    $ python stocks.py aapl+msft sl1p2mwt8
+
+On March 20 2012 this command returned:
+
+                     Symbol: MSFT
+                 Last trade: 31.99
+                     Change: -0.65%
+                Day's range: 31.74 - 32.15
+              52-week range: 23.65 - 32.95
+    52-week target estimate: 33.23
+
 To do
 -----
 
-* Everything.
++ Historical data and personal portfolio graphs (matplotlib)
++ Cross-platform e-mail and desktop notifications
++ Initial setup command to configure a portfolio
++ Use optparser for option parsing
+
+And more.
 
 Options
 -------
