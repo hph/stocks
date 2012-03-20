@@ -56,6 +56,7 @@ To do
 + Initial setup command to configure a portfolio
 + Modify the way the program is used but keep the current commands optional
 + Use optparser for option parsing
++ Modify the way the stock data is printed, use more than one column
 
 And more.
 
