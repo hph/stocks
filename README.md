@@ -13,7 +13,16 @@ Usage example
 
 To get the current stock quotes for a few companies:
 
-    $ python stocks.py
+    $ python stocks.py aapl sl1p2mwt8
+
+At March 20 2012 this command printed:
+
+                         Symbol: AAPL
+                     Last trade: 605.96
+                         Change: +0.81%
+                    Day's range: 582.00 - 606.90
+                  52-week range: 310.50 - 601.77
+        52-week target estimate: 627.04
 
 To do
 -----
