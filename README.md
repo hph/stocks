@@ -41,7 +41,6 @@ On March 20 2012 this command returned:
               52-week range: 310.50 - 601.77
     52-week target estimate: 627.04
 
-
                      Symbol: MSFT
                  Last trade: 31.99
                      Change: -0.65%
