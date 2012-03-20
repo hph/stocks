@@ -54,6 +54,7 @@ To do
 + Historical data and personal portfolio graphs (matplotlib)
 + Cross-platform e-mail and desktop notifications
 + Initial setup command to configure a portfolio
++ Modify the way the program is used but keep the current commands optional
 + Use optparser for option parsing
 
 And more.
