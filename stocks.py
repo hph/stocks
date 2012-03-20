@@ -148,7 +148,7 @@ def repr_data(data):
     for stock in data:
         for tupl in stock:
             print string.rjust(tupl[0] + ':', longest + 1), tupl[1]
-        print '\n'
+        print
 
 def main():
     # NOTE This usage method is just temporary for testing purposes. Optparser
